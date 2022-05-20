@@ -1,0 +1,96 @@
+*{
+    align-content: center;
+    
+}
+body{
+    height: 100vh;
+    width:100%;
+    background-image: url("uefando.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.container{
+    background-attachment: fixed; 
+        
+}
+div.cabecera{
+    border-radius: 15px;
+    text-align: center;
+    background: linear-gradient(90deg, #130196 0%, #B300A9 100%);
+    
+}
+div.menu, nav.navbar-expand-lg{
+    border-radius: 15px;
+    background-color: rgba(57, 150, 224, 0.87);
+}
+
+
+a.nav-link{
+    color: white;
+    font-family: Koulen, cursive;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+} 
+
+h1,h2,a.linkisito,button {
+    font-family: "Delius Unicase", cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 35px;
+    word-spacing: 1px;
+    color: white;
+    text-shadow: rgba(93, 0, 143, 0.47) -4px 5px 4px;
+}
+h4{ 
+    text-align: center;
+    padding: 10px;
+    color: rgb(97,96,96);
+}  
+.descripcion{
+    text-align: center;
+    padding: 5px 25px;
+    color: rgb(53,53,53);
+}
+
+.cont{
+    width: 100%;   
+   display: flex;
+   gap: 50px;
+   flex-wrap: wrap;
+   
+}
+.tarjetaequipo{
+    background-color: white;
+    width: 320px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px dimgrey;
+    border:solid rgba(3,133,255,0)2px;
+    border-radius: 10%;
+    
+}
+.tarjetaequipo:hover{
+   border:solid rgb(3,133,255) 
+}
+img{
+width: 80px;
+border-radius: 30%;
+}
+.cardname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+hr{
+    width: 100%;
+    height: 4px;
+    background: rgb(223,221,221);
+    margin: 20px 5px;
+}
+.enlace{
+    text-align: center;
+}
